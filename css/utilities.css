@@ -22,16 +22,16 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #0d6efd;
-  --bs-secondary: #6c757d;
+  --bs-primary: #004197;
+  --bs-secondary: #e2342d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 13, 110, 253;
-  --bs-secondary-rgb: 108, 117, 125;
+  --bs-primary-rgb: 0, 65, 151, 1;
+  --bs-secondary-rgb: 226, 52, 45, 1;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -42,11 +42,12 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: "Montserrat", system-ui, -apple-system, "Segoe UI",
-    Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --bs-font-monospace: Montserrat, SFMono-Regular, Menlo, Monaco, Consolas,
-    "Liberation Mono", "Courier New", monospace;
+  --bs-font-sans-serif: "Poppins", "Montserrat", system-ui, -apple-system,
+    "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+  --bs-font-monospace: Poppins, Montserrat, SFMono-Regular, Menlo, Monaco,
+    Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0.15),
@@ -137,6 +138,9 @@ i {
 
 /* Button */
 .btn {
+  padding: 8px 32px;
+  border-radius: 0;
+  color: var(--bs-white);
 }
 
 .btn:hover {
@@ -144,23 +148,16 @@ i {
 }
 
 .btn-primary {
-  /* padding: 14px 32px;
-  font-size: 1rem;
-  border-radius: 0.5rem;
-  color: var(--bs-primary);
-  border-color: var(--bs-primary);
+  border-color: var(--bs-secondary);
+  background-color: var(--bs-secondary);
   font-weight: 700;
-  font-size: 16px; */
+  font-size: 20px;
 }
 
-/* --bs-btn-color: #fff;
-  --bs-btn-bg: var(--bs-primary);
-  --bs-btn-border-color: var(--bs-primary);
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: var(--bs-primary);
-  --bs-btn-hover-border-color: var(--bs-primary); */
-
 .btn-primary:hover {
+  border-color: var(--bs-secondary);
+  background-color: var(--bs-secondary);
+  transition: all 300ms ease;
 }
 
 .btn-secondary {

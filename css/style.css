@@ -48,11 +48,28 @@ Keywords: real state, Template, bootstrap template etc.
 .main-navbar .nav-logo img {
   max-width: 400px;
 }
-
 /* ===== NAVBAR END ===== */
 
-/* ===== START===== */
-/* ===== END===== */
+/* ===== Hero/Banner START===== */
+.hero-area {
+  height: 614px;
+  background-color: #f8f8f8;
+}
+
+.hero-area .left-contents h1 {
+  font-weight: 700;
+  font-size: 54px;
+  color: var(--bs-primary);
+  line-height: 81px;
+}
+
+.hero-area .left-contents p {
+  font-weight: 400;
+  font-size: 20px !important;
+  /* line-height: 24px; */
+  color: var(--bs-gray-600) !important;
+}
+/* ===== Hero/Banner END===== */
 
 /* ===== START===== */
 /* ===== END===== */
