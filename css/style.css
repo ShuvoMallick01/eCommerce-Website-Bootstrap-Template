@@ -33,6 +33,22 @@ Keywords: real state, Template, bootstrap template etc.
 /* ===== IMPORT CSS FILE ===== */
 
 /* ===== NAVBAR START ===== */
+.top-navbar ul li a {
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--bs-gray-600);
+}
+
+.top-navbar .navbar-nav {
+  flex-direction: row;
+  gap: 30px !important;
+}
+
+/* main Navbar */
+.main-navbar .nav-logo img {
+  max-width: 400px;
+}
+
 /* ===== NAVBAR END ===== */
 
 /* ===== START===== */
