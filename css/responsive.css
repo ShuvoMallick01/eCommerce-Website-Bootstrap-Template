@@ -6,6 +6,9 @@
 /* ========== TABLETS ========== */
 /* 'lg' applies to medium devices (tablets, less than 992px) */
 @media (max-width: 992px) {
+  .hero-area .left-contents h1 {
+    font-size: 45px !important;
+  }
 }
 
 /* ========== LANDSCAPE PHONE ========== */

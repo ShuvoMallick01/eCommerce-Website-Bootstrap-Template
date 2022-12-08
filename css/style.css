@@ -60,7 +60,6 @@ Keywords: real state, Template, bootstrap template etc.
   font-weight: 700;
   font-size: 54px;
   color: var(--bs-primary);
-  line-height: 81px;
 }
 
 .hero-area .left-contents p {
@@ -77,7 +76,7 @@ Keywords: real state, Template, bootstrap template etc.
 }
 
 .product .product-img {
-  height: 537.93px;
+  max-height: 537.93px;
   cursor: pointer;
 }
 
